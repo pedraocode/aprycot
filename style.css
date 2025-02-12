@@ -16,6 +16,7 @@ border: 1px solid #EA6A12;
     width: 137px;
 height: 52px;
 color: #07143B;
+margin-bottom: -20px;
 }
 
 .ta {
@@ -58,7 +59,7 @@ border: none;
 
 .circulo {
     position: relative; 
-    width: 300px;       
+    width: 60%;       
     
   }
   
@@ -81,5 +82,95 @@ border: none;
   
   .tudo {
     display: flex;
-    align-items: center;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center;    /* centraliza verticalmente */
+    height: 100vh;          /* faz o container ocupar 100% da altura da viewport */
   }
+  
+
+  .esquerda {
+    width: 900px; /* defina o valor conforme sua necessidade */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .esquerdo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  html {
+    margin: 0px;
+  }
+  body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 250, 247);
+}
+
+.ata {
+    max-width: 44px;
+    max-height: 44px;
+}
+
+.at {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fe {
+    display: flex;
+    align-items: center;
+   
+}
+
+.taa {
+    width: 214px;
+height: 28px;
+color: #959895;
+margin-bottom: -5px;
+}
+
+.faz {
+    display: flex;
+flex-direction: column;
+align-items: center;
+    justify-content: center;
+}
+
+.k {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.logo {
+    width: 185px;
+height: 62px;
+
+}
+
+.left-img {
+    position: absolute;
+    left: 50%; 
+    top: 50%;
+   
+    width: 60%; 
+    height: auto;
+    z-index: 2; 
+}
+
+
+  .circulo img:last-child {
+    position: absolute;      
+            
+    transform: translate(-50%, -50%);
+    width: 100px;            
+    height: auto;
+    z-index: 2; 
+
+  }
+  
